@@ -1,2 +1,4 @@
 # blackjack
-Blackjack mobile app project
+Blackjack iOS mobile app project
+Swift 5+
+Xcode 11+
