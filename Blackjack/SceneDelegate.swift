@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  Blackjack
 //
-//  Created by Jack Munkonge on 22/09/2019.
-//  Copyright © 2019 JackAdib. All rights reserved.
+//  Created by Jack Munkonge on 03/10/2019.
+//  Copyright © 2019 MobileDev. All rights reserved.
 //
 
 import UIKit

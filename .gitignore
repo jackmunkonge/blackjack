@@ -1,2 +1,7 @@
-
-Blackjack/Blackjack.xcodeproj/
+# Xcode
+## Build generated
+build/
+DerivedData/ 
+## Various settings
+*.pbxuser
+xcuserdata/
