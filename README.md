@@ -1,7 +1,9 @@
 # blackjack
 The goal of this project is to produce a mobile game that allows multiple players to play blackjack with the fundamental rules and a barebones UI. 
 
-![Card values](https://www.blackjack.org/wp-content/uploads/2018/12/Blackjack-values.png)
+<p align="center">
+<img src="https://www.blackjack.org/wp-content/uploads/2018/12/Blackjack-values.png" width=500>
+</p>
 
 ## Basic Rules
 The aim in any round of blackjack is to beat the dealer. This is can be achieved in three ways:
@@ -106,3 +108,8 @@ If all players at the table bust before the dealer plays their hand, it’s cons
 **Surrender** - A rule that allows a player to give up their initial hand and forfeit half of their wager
 
 **Upcard** - The card in the dealer’s initial two-card hand that is dealt face up
+
+## UX
+<p align="center">
+<img src="UX/BlackjackWireframe.jpg" width=300>
+</p>
