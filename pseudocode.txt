@@ -1,0 +1,8 @@
+Step 1: On newGame(), shuffle() in deck
+Step 2: dealPlayer() - Get first two indexes, set user cards to indexes, remove both from linked list
+Step 3: hit() - increases count from property observer
+Step 4: hit() - get the next node, set the next card and remove from list. Else - stand()
+Step 5: return to last step
+Step 6: dealer()
+Step 7: payouts()
+Step 8: newGame()
