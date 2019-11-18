@@ -10,6 +10,21 @@ import Foundation
 
 struct Card {
     let value: Int
+    let suit: String
+    let title: String?
+    var facingUp = false
+    
+    enum titles: String {
+        case jack
+        case queen
+        case king
+        case ace
+        
+        func title() -> String {
+            return self.rawValue
+        }
+    }
+    
     enum suit: String {
         case spades
         case clubs
@@ -20,8 +35,18 @@ struct Card {
             return self.rawValue
         }
     }
-    
-    init(value: Int, suit: String) {
+        
+    init(value: Int, suit: String, title: String? = nil) {
         self.value = value
+        self.suit = suit
+        self.title = title
+    }
+    
+    public func isFacingUp() -> Bool {
+        return facingUp
+    }
+    
+    public mutating func flipCard() {
+        self.facingUp.toggle()
     }
 }
