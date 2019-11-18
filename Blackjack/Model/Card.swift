@@ -37,11 +37,15 @@ struct Card {
     }
         
     init(value: Int, suit: String, title: String? = nil) {
-        self.value = value
+        self.value = calcValue(value)
         self.suit = suit
         self.title = title
     }
     
+    public func calcValue(value: Int) -> Int {
+        return value > 10 ? 10 : value
+    }
+
     public func isFacingUp() -> Bool {
         return facingUp
     }

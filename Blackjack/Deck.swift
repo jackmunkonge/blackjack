@@ -10,14 +10,15 @@ import Foundation
 
 class Deck {
     var cards: [Card] = []
-    let titles = [Card.titles.jack, Card.titles.queen, Card.titles.king, Card.titles.ace]
-    
+    // Veli - I still dont think we should have titles as an enum in the Card class, if we do we need to include the numbers as well imo
+    let titles = ["2", "3", "4", "5", "6", "7", "8", "9", "10", Card.titles.jack.rawValue, Card.titles.queen.rawValue, Card.titles.king.rawValue, Card.titles.ace.rawValue]
+
     init() {
-        for j in 1...10 {
-            cards.append(Card(value: j, suit: Card.suit.spades.rawValue))
-            cards.append(Card(value: j, suit: Card.suit.clubs.rawValue))
-            cards.append(Card(value: j, suit: Card.suit.hearts.rawValue))
-            cards.append(Card(value: j, suit: Card.suit.diamonds.rawValue))
+        for j in 0...12 {
+          cards.append(Card(value: j, suit: Card.suit.spades.rawValue, title: String(titles[j])))
+          cards.append(Card(value: j, suit: Card.suit.diamonds.rawValue, title: String(titles[j])))
+          cards.append(Card(value: j, suit: Card.suit.clubs.rawValue, title: String(titles[j])))
+          cards.append(Card(value: j, suit: Card.suit.hearts.rawValue, title: String(titles[j])))
         }
         
 //        cards.append(Card(value: 10, suit: Card.suit.spades.rawValue), title: Card.titles.jack)
