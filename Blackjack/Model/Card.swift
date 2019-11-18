@@ -42,7 +42,7 @@ struct Card {
         self.title = title
     }
     
-    public func calcValue(value: Int) -> Int {
+    private func calcValue(value: Int) -> Int {
         return value > 10 ? 10 : value
     }
 
