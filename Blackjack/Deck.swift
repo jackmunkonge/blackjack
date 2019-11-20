@@ -11,7 +11,7 @@ import Foundation
 class Deck {
     var cards: [Card] = []
     // Veli - I still dont think we should have titles as an enum in the Card class, if we do we need to include the numbers as well imo
-    let titles = ["2", "3", "4", "5", "6", "7", "8", "9", "10", Card.titles.jack.rawValue, Card.titles.queen.rawValue, Card.titles.king.rawValue, Card.titles.ace.rawValue]
+    let titles = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", Card.titles.jack.rawValue, Card.titles.queen.rawValue, Card.titles.king.rawValue, Card.titles.ace.rawValue]
 
     init() {
         for j in 0...12 {
