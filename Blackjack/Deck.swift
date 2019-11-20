@@ -14,7 +14,7 @@ class Deck {
     let titles = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", Card.titles.jack.rawValue, Card.titles.queen.rawValue, Card.titles.king.rawValue, Card.titles.ace.rawValue]
 
     init() {
-        for j in 0...12 {
+        for j in 2...14 {
           cards.append(Card(value: j, suit: Card.suit.spades.rawValue, title: String(titles[j])))
           cards.append(Card(value: j, suit: Card.suit.diamonds.rawValue, title: String(titles[j])))
           cards.append(Card(value: j, suit: Card.suit.clubs.rawValue, title: String(titles[j])))
