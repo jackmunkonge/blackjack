@@ -15,6 +15,8 @@
 		041C6A4D23467CD6000A5CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C6A4B23467CD6000A5CBC /* Main.storyboard */; };
 		041C6A4F23467CD7000A5CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C6A4E23467CD7000A5CBC /* Assets.xcassets */; };
 		041C6A5223467CD7000A5CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C6A5023467CD7000A5CBC /* LaunchScreen.storyboard */; };
+		04837BFD2385D8E9001D8F60 /* Royals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04837BFC2385D8E9001D8F60 /* Royals.swift */; };
+		04837BFF2385DB92001D8F60 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04837BFE2385DB92001D8F60 /* Suits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		041C6A4E23467CD7000A5CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041C6A5123467CD7000A5CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041C6A5323467CD7000A5CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04837BFC2385D8E9001D8F60 /* Royals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Royals.swift; sourceTree = "<group>"; };
+		04837BFE2385DB92001D8F60 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +48,10 @@
 		0414AAE6234CF9D200EE0FCB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				040E2B5623830E17000BCEDF /* Deck.swift */,
 				0414AAE4234CF9BE00EE0FCB /* Card.swift */,
+				04837BFC2385D8E9001D8F60 /* Royals.swift */,
+				04837BFE2385DB92001D8F60 /* Suits.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,7 +83,6 @@
 				041C6A5023467CD7000A5CBC /* LaunchScreen.storyboard */,
 				041C6A5323467CD7000A5CBC /* Info.plist */,
 				0414AAE6234CF9D200EE0FCB /* Model */,
-				040E2B5623830E17000BCEDF /* Deck.swift */,
 			);
 			path = Blackjack;
 			sourceTree = "<group>";
@@ -152,10 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04837BFD2385D8E9001D8F60 /* Royals.swift in Sources */,
 				041C6A4A23467CD6000A5CBC /* ViewController.swift in Sources */,
 				041C6A4623467CD6000A5CBC /* AppDelegate.swift in Sources */,
 				040E2B5723830E17000BCEDF /* Deck.swift in Sources */,
 				041C6A4823467CD6000A5CBC /* SceneDelegate.swift in Sources */,
+				04837BFF2385DB92001D8F60 /* Suits.swift in Sources */,
 				0414AAE5234CF9BE00EE0FCB /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
