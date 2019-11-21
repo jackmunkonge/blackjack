@@ -9,8 +9,8 @@
 import Foundation
 
 struct Royals {
-    static let jack = "jack"
-    static let queen = "queen"
-    static let king = "king"
-    static let ace = "ace"
+    static let JACK = "jack"
+    static let QUEEN = "queen"
+    static let KING = "king"
+    static let ACE = "ace"
 }

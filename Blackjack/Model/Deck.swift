@@ -11,7 +11,7 @@ import Foundation
 class Deck {
     var cards: [Card] = []
     
-    let titles = [Royals.ace, "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", Royals.jack, Royals.queen, Royals.king]
+    let titles = [Royals.ACE, "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", Royals.JACK, Royals.QUEEN, Royals.KING]
 
     init() {
         for j in 1...13 {
