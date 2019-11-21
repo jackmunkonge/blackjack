@@ -15,10 +15,10 @@ class Deck {
 
     init() {
         for j in 1...13 {
-            cards.append(Card(value: j, suit: Suits.spades, title: titles[j]))
-            cards.append(Card(value: j, suit: Suits.diamonds, title: titles[j]))
-            cards.append(Card(value: j, suit: Suits.clubs, title: titles[j]))
-            cards.append(Card(value: j, suit: Suits.hearts, title: titles[j]))
+            cards.append(Card(value: j, suit: .spades, title: titles[j-1]))
+            cards.append(Card(value: j, suit: .diamonds, title: titles[j-1]))
+            cards.append(Card(value: j, suit: .clubs, title: titles[j-1]))
+            cards.append(Card(value: j, suit: .hearts, title: titles[j-1]))
         }
 
         cards.shuffle()

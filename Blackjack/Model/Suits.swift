@@ -8,9 +8,6 @@
 
 import Foundation
 
-struct Suits {
-    static let spades = "spades"
-    static let clubs = "clubs"
-    static let hearts = "hearts"
-    static let diamonds = "diamonds"
+enum Suits {
+    case spades, clubs, hearts, diamonds
 }
