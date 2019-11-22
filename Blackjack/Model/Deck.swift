@@ -8,8 +8,8 @@
 
 import Foundation
 
-class Deck {
-    var cards: [Card] = []
+final class Deck {
+    private var cards: [Card] = []
 
     init() {
         for j in 1...13 {

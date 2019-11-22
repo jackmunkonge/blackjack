@@ -12,7 +12,7 @@ struct Card {
     let value: Int
     let suit: Suits
     let title: CardTitles
-    var facingUp = false
+    private var facingUp = false
         
     init() {
         let value = Int.random(in: 1...10)
@@ -37,12 +37,16 @@ struct Card {
         self.suit = suit
         self.title = title
     }
-
+    
     public func isFacingUp() -> Bool {
-        return facingUp
+        return self.facingUp
     }
     
-    public mutating func flipCard() {
-        self.facingUp.toggle()
+    public mutating func faceDown() {
+        self.facingUp = false
+    }
+    
+    public mutating func faceUp() {
+        self.facingUp = true
     }
 }
