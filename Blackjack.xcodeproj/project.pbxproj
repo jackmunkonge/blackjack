@@ -18,6 +18,8 @@
 		041E5C3323870B9100E78B7A /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E5C3223870B9100E78B7A /* Hand.swift */; };
 		0461332E2387532300280855 /* CardTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461332D2387532300280855 /* CardTitles.swift */; };
 		04837BFF2385DB92001D8F60 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04837BFE2385DB92001D8F60 /* Suits.swift */; };
+		04961EE62388AB140070EE1D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04961EE52388AB140070EE1D /* Player.swift */; };
+		04961EE82388AD830070EE1D /* LivePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04961EE72388AD830070EE1D /* LivePlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		041E5C3223870B9100E78B7A /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		0461332D2387532300280855 /* CardTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitles.swift; sourceTree = "<group>"; };
 		04837BFE2385DB92001D8F60 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
+		04961EE52388AB140070EE1D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		04961EE72388AD830070EE1D /* LivePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				04837BFE2385DB92001D8F60 /* Suits.swift */,
 				041E5C3223870B9100E78B7A /* Hand.swift */,
 				0461332D2387532300280855 /* CardTitles.swift */,
+				04961EE52388AB140070EE1D /* Player.swift */,
+				04961EE72388AD830070EE1D /* LivePlayer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,11 +169,13 @@
 			files = (
 				041E5C3323870B9100E78B7A /* Hand.swift in Sources */,
 				041C6A4A23467CD6000A5CBC /* ViewController.swift in Sources */,
+				04961EE82388AD830070EE1D /* LivePlayer.swift in Sources */,
 				041C6A4623467CD6000A5CBC /* AppDelegate.swift in Sources */,
 				0461332E2387532300280855 /* CardTitles.swift in Sources */,
 				040E2B5723830E17000BCEDF /* Deck.swift in Sources */,
 				041C6A4823467CD6000A5CBC /* SceneDelegate.swift in Sources */,
 				04837BFF2385DB92001D8F60 /* Suits.swift in Sources */,
+				04961EE62388AB140070EE1D /* Player.swift in Sources */,
 				0414AAE5234CF9BE00EE0FCB /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
