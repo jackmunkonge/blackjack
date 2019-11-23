@@ -14,7 +14,7 @@ final class Hand {
             calculateHandValues()
         }
     }
-    public private(set) var flopped = false
+    public private(set) var folded = false
     public private(set) var softValue = 0
     public private(set) var hardValue = 0
     
@@ -26,7 +26,7 @@ final class Hand {
         self.cards = [deck.getNext(), deck.getNext()]
     }
     
-    public func flop() {
+    public func fold() {
         for i in 0..<cards.count {
             self.cards[i].faceDown()
         }
@@ -36,6 +36,24 @@ final class Hand {
         for i in 0..<cards.count {
             self.cards[i].faceUp()
         }
+    }
+    
+    public func addCard(withCard card: Card) {
+        cards.append(card)
+    }
+    
+    public func removeCard(withSuit suit: Suits, withTitle title: CardTitles) -> Card? {
+        var index: Int? = nil
+        for i in 0..<cards.count {
+            if cards[i].suit == suit && cards[i].title == title {
+                index = i
+            }
+        }
+        
+        guard let removeIndex = index else {
+            return nil
+        }
+        return cards.remove(at: removeIndex)
     }
     
     private func calculateHandValues() {
