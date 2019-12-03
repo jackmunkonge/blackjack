@@ -34,7 +34,7 @@ final class LivePlayer: Player {
     }
     
     public func hit(fromDeck deck: Deck) {
-        self.hand.addCard(withCard: deck.getNext())
+        self.hand.add(card: deck.getNext())
     }
     
     public func stand() {

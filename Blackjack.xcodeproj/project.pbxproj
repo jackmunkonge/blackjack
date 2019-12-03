@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		040E2B5723830E17000BCEDF /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E2B5623830E17000BCEDF /* Deck.swift */; };
 		0414AAE5234CF9BE00EE0FCB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414AAE4234CF9BE00EE0FCB /* Card.swift */; };
+		041B448D2396DB4600B5879B /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B448C2396DB4600B5879B /* Dealer.swift */; };
 		041C6A4623467CD6000A5CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C6A4523467CD6000A5CBC /* AppDelegate.swift */; };
 		041C6A4823467CD6000A5CBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C6A4723467CD6000A5CBC /* SceneDelegate.swift */; };
 		041C6A4A23467CD6000A5CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C6A4923467CD6000A5CBC /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		040E2B5623830E17000BCEDF /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		0414AAE4234CF9BE00EE0FCB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		041B448C2396DB4600B5879B /* Dealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
 		041C6A4223467CD6000A5CBC /* Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C6A4523467CD6000A5CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041C6A4723467CD6000A5CBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				0461332D2387532300280855 /* CardTitles.swift */,
 				04961EE52388AB140070EE1D /* Player.swift */,
 				04961EE72388AD830070EE1D /* LivePlayer.swift */,
+				041B448C2396DB4600B5879B /* Dealer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				041C6A4823467CD6000A5CBC /* SceneDelegate.swift in Sources */,
 				04837BFF2385DB92001D8F60 /* Suits.swift in Sources */,
 				04961EE62388AB140070EE1D /* Player.swift in Sources */,
+				041B448D2396DB4600B5879B /* Dealer.swift in Sources */,
 				0414AAE5234CF9BE00EE0FCB /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

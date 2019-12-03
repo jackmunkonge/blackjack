@@ -38,7 +38,7 @@ final class Hand {
         }
     }
     
-    public func addCard(withCard card: Card) {
+    public func add(card: Card) {
         cards.append(card)
     }
     
