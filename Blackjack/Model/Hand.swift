@@ -28,13 +28,13 @@ final class Hand {
     
     public func fold() {
         for i in 0..<cards.count {
-            self.cards[i].faceDown()
+            cards[i].faceDown()
         }
     }
     
     public func showHand() {
         for i in 0..<cards.count {
-            self.cards[i].faceUp()
+            cards[i].faceUp()
         }
     }
     

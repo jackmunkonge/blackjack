@@ -11,5 +11,3 @@ import Foundation
 enum Suits: CaseIterable {
     case spades, clubs, hearts, diamonds
 }
-
-

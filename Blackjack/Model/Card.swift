@@ -36,17 +36,19 @@ struct Card {
         self.value = value
         self.suit = suit
         self.title = title
+        
+        //TODO: validation needed
     }
     
     public func isFacingUp() -> Bool {
-        return self.facingUp
+        return facingUp
     }
     
     public mutating func faceDown() {
-        self.facingUp = false
+        facingUp = false
     }
     
     public mutating func faceUp() {
-        self.facingUp = true
+        facingUp = true
     }
 }

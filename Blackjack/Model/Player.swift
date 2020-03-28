@@ -9,8 +9,8 @@
 import Foundation
 
 protocol Player {
-    var hand: Hand { get set }
+    var id: String { get set }
+    var hand: Hand? { get set }
     
     func hit(fromDeck deck: Deck)
-    func stand()
 }

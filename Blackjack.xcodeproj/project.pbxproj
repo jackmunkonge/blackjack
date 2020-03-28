@@ -21,6 +21,8 @@
 		04837BFF2385DB92001D8F60 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04837BFE2385DB92001D8F60 /* Suits.swift */; };
 		04961EE62388AB140070EE1D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04961EE52388AB140070EE1D /* Player.swift */; };
 		04961EE82388AD830070EE1D /* LivePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04961EE72388AD830070EE1D /* LivePlayer.swift */; };
+		0498C3F023FC58A80009D480 /* PlayerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498C3EF23FC58A80009D480 /* PlayerStatus.swift */; };
+		0498C3F223FC59720009D480 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498C3F123FC59720009D480 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		04837BFE2385DB92001D8F60 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 		04961EE52388AB140070EE1D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		04961EE72388AD830070EE1D /* LivePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePlayer.swift; sourceTree = "<group>"; };
+		0498C3EF23FC58A80009D480 /* PlayerStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatus.swift; sourceTree = "<group>"; };
+		0498C3F123FC59720009D480 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				04961EE52388AB140070EE1D /* Player.swift */,
 				04961EE72388AD830070EE1D /* LivePlayer.swift */,
 				041B448C2396DB4600B5879B /* Dealer.swift */,
+				0498C3EF23FC58A80009D480 /* PlayerStatus.swift */,
+				0498C3F123FC59720009D480 /* Game.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 			files = (
 				041E5C3323870B9100E78B7A /* Hand.swift in Sources */,
 				041C6A4A23467CD6000A5CBC /* ViewController.swift in Sources */,
+				0498C3F023FC58A80009D480 /* PlayerStatus.swift in Sources */,
+				0498C3F223FC59720009D480 /* Game.swift in Sources */,
 				04961EE82388AD830070EE1D /* LivePlayer.swift in Sources */,
 				041C6A4623467CD6000A5CBC /* AppDelegate.swift in Sources */,
 				0461332E2387532300280855 /* CardTitles.swift in Sources */,

@@ -10,8 +10,9 @@ import Foundation
 
 final class LivePlayer: Player {
     
-    let id: String
-    var hand: Hand
+    var id: String
+    var hand: Hand?
+    var playerStatus: PlayerStatus = .notPlaying
     var live = false
     var wins = 0
     var losses = 0
@@ -24,7 +25,7 @@ final class LivePlayer: Player {
         self.losses = losses
     }
     
-    init(withId id: String, withHand hand: Hand) {
+    init(withId id: String, withHand hand: Hand?) {
         self.id = id
         self.hand = hand
     }
@@ -34,10 +35,10 @@ final class LivePlayer: Player {
     }
     
     public func hit(fromDeck deck: Deck) {
-        self.hand.add(card: deck.getNext())
+        hand?.add(card: deck.getNext())
     }
     
     public func stand() {
-        //TODO: Add call to game manager (end turn)
+        playerStatus = .standing
     }
 }
