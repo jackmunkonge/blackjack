@@ -8,17 +8,15 @@
 
 import Foundation
 
-class Deck {
-    var cards: [Card] = []
-    
-    let titles = [Royals.ace, "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", Royals.jack, Royals.queen, Royals.king]
+final class Deck {
+    private var cards: [Card] = []
 
     init() {
         for j in 1...13 {
-            cards.append(Card(value: j, suit: .spades, title: titles[j-1]))
-            cards.append(Card(value: j, suit: .diamonds, title: titles[j-1]))
-            cards.append(Card(value: j, suit: .clubs, title: titles[j-1]))
-            cards.append(Card(value: j, suit: .hearts, title: titles[j-1]))
+            let value = j > 10 ? 10 : j
+            for suit in Suits.allCases {
+                cards.append(Card(value: value, suit: suit, title: CardTitles.allCases[j-1])!)
+            }
         }
 
         cards.shuffle()

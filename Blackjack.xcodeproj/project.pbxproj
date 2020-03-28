@@ -9,19 +9,26 @@
 /* Begin PBXBuildFile section */
 		040E2B5723830E17000BCEDF /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E2B5623830E17000BCEDF /* Deck.swift */; };
 		0414AAE5234CF9BE00EE0FCB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414AAE4234CF9BE00EE0FCB /* Card.swift */; };
+		041B448D2396DB4600B5879B /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B448C2396DB4600B5879B /* Dealer.swift */; };
 		041C6A4623467CD6000A5CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C6A4523467CD6000A5CBC /* AppDelegate.swift */; };
 		041C6A4823467CD6000A5CBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C6A4723467CD6000A5CBC /* SceneDelegate.swift */; };
 		041C6A4A23467CD6000A5CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C6A4923467CD6000A5CBC /* ViewController.swift */; };
 		041C6A4D23467CD6000A5CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C6A4B23467CD6000A5CBC /* Main.storyboard */; };
 		041C6A4F23467CD7000A5CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C6A4E23467CD7000A5CBC /* Assets.xcassets */; };
 		041C6A5223467CD7000A5CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C6A5023467CD7000A5CBC /* LaunchScreen.storyboard */; };
-		04837BFD2385D8E9001D8F60 /* Royals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04837BFC2385D8E9001D8F60 /* Royals.swift */; };
+		041E5C3323870B9100E78B7A /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E5C3223870B9100E78B7A /* Hand.swift */; };
+		0461332E2387532300280855 /* CardTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461332D2387532300280855 /* CardTitles.swift */; };
 		04837BFF2385DB92001D8F60 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04837BFE2385DB92001D8F60 /* Suits.swift */; };
+		04961EE62388AB140070EE1D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04961EE52388AB140070EE1D /* Player.swift */; };
+		04961EE82388AD830070EE1D /* LivePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04961EE72388AD830070EE1D /* LivePlayer.swift */; };
+		0498C3F023FC58A80009D480 /* PlayerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498C3EF23FC58A80009D480 /* PlayerStatus.swift */; };
+		0498C3F223FC59720009D480 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498C3F123FC59720009D480 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040E2B5623830E17000BCEDF /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		0414AAE4234CF9BE00EE0FCB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		041B448C2396DB4600B5879B /* Dealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
 		041C6A4223467CD6000A5CBC /* Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C6A4523467CD6000A5CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041C6A4723467CD6000A5CBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +37,13 @@
 		041C6A4E23467CD7000A5CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041C6A5123467CD7000A5CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041C6A5323467CD7000A5CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04837BFC2385D8E9001D8F60 /* Royals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Royals.swift; sourceTree = "<group>"; };
+		041E5C3223870B9100E78B7A /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		0461332D2387532300280855 /* CardTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitles.swift; sourceTree = "<group>"; };
 		04837BFE2385DB92001D8F60 /* Suits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
+		04961EE52388AB140070EE1D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		04961EE72388AD830070EE1D /* LivePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePlayer.swift; sourceTree = "<group>"; };
+		0498C3EF23FC58A80009D480 /* PlayerStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatus.swift; sourceTree = "<group>"; };
+		0498C3F123FC59720009D480 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +62,14 @@
 			children = (
 				040E2B5623830E17000BCEDF /* Deck.swift */,
 				0414AAE4234CF9BE00EE0FCB /* Card.swift */,
-				04837BFC2385D8E9001D8F60 /* Royals.swift */,
 				04837BFE2385DB92001D8F60 /* Suits.swift */,
+				041E5C3223870B9100E78B7A /* Hand.swift */,
+				0461332D2387532300280855 /* CardTitles.swift */,
+				04961EE52388AB140070EE1D /* Player.swift */,
+				04961EE72388AD830070EE1D /* LivePlayer.swift */,
+				041B448C2396DB4600B5879B /* Dealer.swift */,
+				0498C3EF23FC58A80009D480 /* PlayerStatus.swift */,
+				0498C3F123FC59720009D480 /* Game.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,12 +176,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04837BFD2385D8E9001D8F60 /* Royals.swift in Sources */,
+				041E5C3323870B9100E78B7A /* Hand.swift in Sources */,
 				041C6A4A23467CD6000A5CBC /* ViewController.swift in Sources */,
+				0498C3F023FC58A80009D480 /* PlayerStatus.swift in Sources */,
+				0498C3F223FC59720009D480 /* Game.swift in Sources */,
+				04961EE82388AD830070EE1D /* LivePlayer.swift in Sources */,
 				041C6A4623467CD6000A5CBC /* AppDelegate.swift in Sources */,
+				0461332E2387532300280855 /* CardTitles.swift in Sources */,
 				040E2B5723830E17000BCEDF /* Deck.swift in Sources */,
 				041C6A4823467CD6000A5CBC /* SceneDelegate.swift in Sources */,
 				04837BFF2385DB92001D8F60 /* Suits.swift in Sources */,
+				04961EE62388AB140070EE1D /* Player.swift in Sources */,
+				041B448D2396DB4600B5879B /* Dealer.swift in Sources */,
 				0414AAE5234CF9BE00EE0FCB /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

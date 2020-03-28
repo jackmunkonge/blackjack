@@ -8,6 +8,6 @@
 
 import Foundation
 
-enum Suits {
+enum Suits: CaseIterable {
     case spades, clubs, hearts, diamonds
 }
